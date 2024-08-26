@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Criar uma Página Básica em HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Como Criar uma Página Básica em HTML</h1>
+    </header>
+
+    <section>
+        <h2>Passo 1: Estrutura Básica</h2>
+        <p>Para começar, você precisa criar a estrutura básica do HTML. Veja o exemplo abaixo:</p>
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="pt-BR"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Minha Página&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;!-- Conteúdo vai aqui --&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>Passo 2: Adicionar Cabeçalho e Parágrafo</h2>
+        <p>Agora, vamos adicionar um cabeçalho e um parágrafo ao corpo da página:</p>
+        <pre>
+            <code>
+                &lt;body&gt;
+                    &lt;h1&gt;Bem-vindo à Minha Página&lt;/h1&gt;
+                    &lt;p&gt;Esta é a minha primeira página HTML!&lt;/p&gt;
+                &lt;/body&gt;
+            </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>Passo 3: Adicionar uma Imagem</h2>
+        <p>Para adicionar uma imagem, use a tag <code>&lt;img&gt;</code> e forneça o caminho para a imagem:</p>
+        <pre>
+            <code>
+                &lt;body&gt;
+                    &lt;h1&gt;Bem-vindo à Minha Página&lt;/h1&gt;
+                    &lt;p&gt;Esta é a minha primeira página HTML!&lt;/p&gt;
+                    &lt;img src="caminho/para/imagem.jpg" alt="Descrição da imagem"&gt;
+                &lt;/body&gt;
+            </code>
+        </pre>
+        <img src="https://via.placeholder.com/400x200" alt="Imagem de exemplo">
+    </section>
+
+    <section>
+        <h2>Passo 4: Adicionar um Link</h2>
+        <p>Para adicionar um link, use a tag <code>&lt;a&gt;</code>:</p>
+        <pre>
+            <code>
+                &lt;body&gt;
+                    &lt;h1&gt;Bem-vindo à Minha Página&lt;/h1&gt;
+                    &lt;p&gt;Esta é a minha primeira página HTML!&lt;/p&gt;
+                    &lt;img src="caminho/para/imagem.jpg" alt="Descrição da imagem"&gt;
+                    &lt;a href="https://www.exemplo.com"&gt;Visite o Exemplo&lt;/a&gt;
+                &lt;/body&gt;
+            </code>
+        </pre>
+        <p><a href="https://www.exemplo.com">Visite o Exemplo</a></p>
+    </section>
+
+    <section>
+        <h2>Passo 5: Criar uma Lista</h2>
+        <p>Para criar uma lista, use as tags <code>&lt;ul&gt;</code> para listas não ordenadas ou <code>&lt;ol&gt;</code> para listas ordenadas:</p>
+        <pre>
+            <code>
+                &lt;body&gt;
+                    &lt;h1&gt;Bem-vindo à Minha Página&lt;/h1&gt;
+                    &lt;p&gt;Esta é a minha primeira página HTML!&lt;/p&gt;
+                    &lt;img src="caminho/para/imagem.jpg" alt="Descrição da imagem"&gt;
+                    &lt;a href="https://www.exemplo.com"&gt;Visite o Exemplo&lt;/a&gt;
+
+                    &lt;h2&gt;Coisas que gosto&lt;/h2&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;Café&lt;/li&gt;
+                        &lt;li&gt;Livros&lt;/li&gt;
+                        &lt;li&gt;Programação&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/body&gt;
+            </code>
+        </pre>
+        <h2>Coisas que gosto</h2>
+        <ul>
+            <li>Café</li>
+            <li>Livros</li>
+            <li>Programação</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Este é o final do tutorial básico de HTML.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
